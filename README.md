@@ -1,6 +1,10 @@
-# zeller
+# Zeller
 A banking app that allows users to transact money and view their transaction history
 
+# Zeller Banking screen
+![alt text](https://github.com/PremAru/zeller/blob/master/images/Transfer.png)
+
+![alt text](https://github.com/PremAru/zeller/blob/master/images/TransferHistory.png)
 
 ## Getting Started
 
