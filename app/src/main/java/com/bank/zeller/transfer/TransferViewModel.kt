@@ -4,13 +4,15 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.bank.zeller.R
-import com.bank.zeller.transfer.utils.Constants.DOLLAR_SIGN
-import com.bank.zeller.transfer.utils.Resource
+import com.bank.zeller.utils.Constants.DOLLAR_SIGN
+import com.bank.zeller.utils.Resource
 import dagger.Module
+import java.util.*
 import javax.inject.Inject
+import kotlin.collections.ArrayList
 
 @Module
-class TransferActivityViewModel @Inject constructor() : ViewModel() {
+class TransferViewModel @Inject constructor() : ViewModel() {
     private var accountbalance: Int = 0
     private val transactionHistory = arrayListOf<String>()
     private val transactionDetails = MutableLiveData<Resource<Int>>()
@@ -46,6 +48,7 @@ class TransferActivityViewModel @Inject constructor() : ViewModel() {
     }
 
     fun getTransactionHistory(): ArrayList<String> {
+         Collections.reverse(transactionHistory)
         return transactionHistory
     }
 

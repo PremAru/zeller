@@ -1,4 +1,4 @@
-package com.bank.zeller.transfer.utils
+package com.bank.zeller.utils
 
 data class Resource<out T>(val status: Status, val data: T?) {
 

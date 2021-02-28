@@ -1,4 +1,4 @@
-package com.bank.zeller.transfer.utils
+package com.bank.zeller.utils
 
 object Constants {
     const val KEY_TRANSACTION_HISTORY = "transactionHistory"

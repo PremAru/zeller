@@ -1,7 +1,8 @@
-package com.bank.zeller.transfer.di
+package com.bank.zeller.di
 
 import android.content.Context
 import com.bank.zeller.transfer.TransferActivity
+import com.bank.zeller.transferhistory.TransferHistoryActivity
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.support.AndroidSupportInjectionModule
@@ -18,5 +19,7 @@ interface AppComponent {
     }
 
     fun inject(transferActivity: TransferActivity)
+
+    fun inject(transferHistoryActivity: TransferHistoryActivity)
 
 }

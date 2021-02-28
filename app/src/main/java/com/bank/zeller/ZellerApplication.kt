@@ -1,9 +1,9 @@
-package com.bank.zeller.transfer
+package com.bank.zeller
 
 import android.app.Application
 import com.bank.zeller.BuildConfig
-import com.bank.zeller.transfer.di.AppComponent
-import com.bank.zeller.transfer.di.DaggerAppComponent
+import com.bank.zeller.di.AppComponent
+import com.bank.zeller.di.DaggerAppComponent
 import timber.log.Timber
 
 class ZellerApplication : Application() {

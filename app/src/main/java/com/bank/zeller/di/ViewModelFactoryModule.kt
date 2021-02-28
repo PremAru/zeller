@@ -1,4 +1,4 @@
-package com.bank.zeller.transfer.di
+package com.bank.zeller.di
 
 import androidx.lifecycle.ViewModelProvider
 import dagger.Binds

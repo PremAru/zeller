@@ -1,4 +1,4 @@
-package com.bank.zeller.transfer.utils
+package com.bank.zeller.utils
 
 enum class Status {
     SUCCESS,

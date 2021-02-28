@@ -9,5 +9,6 @@
     <string name="enter_deposit_amount">Enter deposit amount</string>
     <string name="enter_withdraw_amount">Enter withdraw amount</string>
     <string name="withdraw">Withdraw</string>
+    <string name="no_transaction">There is no transaction to show</string>
 
 </resources>
