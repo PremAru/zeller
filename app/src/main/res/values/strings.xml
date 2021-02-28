@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Zeller</string>
+    <string name="deposit">Deposit</string>
+    <string name="view_transaction">View transactions</string>
+    <string name="enter_valid_input">Please enter amount to deposit</string>
+    <string name="deposit_success">"Deposit $ %1$s - Transaction success"</string>
+    <string name="withdraw_success">"Withdraw $ %1$s - Transaction success"</string>
+    <string name="transaction_declined">Withdraw $ %1$s - Transaction declined due to insufficient funds</string>
+    <string name="enter_deposit_amount">Enter deposit amount</string>
+    <string name="enter_withdraw_amount">Enter withdraw amount</string>
+    <string name="withdraw">Withdraw</string>
+
 </resources>
