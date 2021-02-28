@@ -51,3 +51,11 @@ TDD is followed for the development of the application. Red, Green, Refactor app
 
 *	Expresso
 
+*	MVVM
+
+*	Data binding
+
+*	Live Data
+
+*	Material Design
+
