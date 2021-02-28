@@ -1,9 +1,10 @@
-package com.bank.zeller
+package com.bank.zeller.transfer
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.bank.zeller.R
 
-class MainActivity : AppCompatActivity() {
+class TransferActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
